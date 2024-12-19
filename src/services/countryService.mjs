@@ -87,7 +87,7 @@ function processCountries(countries) {
       flags,
       startOfWeek,
       capitalInfo,
-      creador: 'De La Fuente Gonzalo' // añado el campo creador
+      creador: 'Maria Sofia Martin' // añado el campo creador
     };
   });
 }

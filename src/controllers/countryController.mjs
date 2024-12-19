@@ -33,7 +33,7 @@ export async function agregarPaisController(req, res) {
             gini: req.body.gini ? { [req.body.gini]: req.body.gini } : {}, // aseguro de que el campo gini se incluya, clave - valor
             timezones: [req.body.timezones],//arreglo
             borders: req.body.borders ? req.body.borders.split(',').map(border => border.trim()) : [],//Convierte una lista de países vecinos (separados por comas) en un arreglo.
-            creador: 'De La Fuente Gonzalo'
+            creador: 'Maria Sofia Martin'
         };
 
         await agregarPais(nuevoPais);

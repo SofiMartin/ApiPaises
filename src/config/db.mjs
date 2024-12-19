@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export async function connectDB() {
+export async function connect() {
 
     try {
         const url = 'mongodb+srv://Grupo-14:grupo14@cursadanodejs.ls9ii.mongodb.net/Node-js';
